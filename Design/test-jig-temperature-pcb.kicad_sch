@@ -3918,6 +3918,12 @@
 		(uuid "22349986-ad5b-4838-b8b3-0b67d498e9ec")
 	)
 	(junction
+		(at 212.09 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22ca22e6-f8fb-4b72-83d0-76c3b88905c4")
+	)
+	(junction
 		(at 119.38 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4090,12 +4096,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c96c9b24-fcfb-44e4-b84d-5f4cf3255911")
-	)
-	(junction
-		(at 212.09 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce1738d0-dae6-4d45-b2ed-25cc12887ee7")
 	)
 	(junction
 		(at 71.12 190.5)
@@ -7650,6 +7650,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 212.09 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32b5d16a-af4d-4359-b511-0cec12235632")
+		(property "Reference" "#PWR09"
+			(at 212.09 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 212.09 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 212.09 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd55fec9-cac0-4e0c-b49b-d85e6f432f07")
+		)
+		(instances
+			(project "test-jig-temperature-pcb"
+				(path "/ee90df8d-0f55-4797-b97b-555aec38ead9"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Display_Character:WC1602A")
 		(at 232.41 127 0)
 		(unit 1)
@@ -10070,72 +10136,6 @@
 			(project "test-jig-temperature-pcb"
 				(path "/ee90df8d-0f55-4797-b97b-555aec38ead9"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 212.09 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2e18ca1-a3e3-4cbe-9360-14c4af9070b1")
-		(property "Reference" "#PWR015"
-			(at 212.09 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 212.09 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 212.09 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbf88364-0de8-4199-b8cd-b66c9236dee3")
-		)
-		(instances
-			(project ""
-				(path "/ee90df8d-0f55-4797-b97b-555aec38ead9"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
